@@ -173,7 +173,7 @@ void Settings::setDefaults()
 
 	mBoolMap["StopMusicOnScreenSaver"] = false;
 
-	mBoolMap["RetroachievementsMenuitem"] = true;
+	mBoolMap["RetroachievementsMenuitem"] = false;
 	mIntMap["ScreenSaverSwapImageTimeout"] = 10000;
 	mBoolMap["SlideshowScreenSaverStretch"] = false;
 	// mStringMap["SlideshowScreenSaverBackgroundAudioFile"] = "/userdata/music/slideshow_bg.wav"; // batocera
@@ -260,7 +260,7 @@ void Settings::setDefaults()
 
 	mBoolMap["ThreadedLoading"] = true;
 	mBoolMap["AsyncImages"] = true;
-	mBoolMap["PreloadUI"] = true;
+	mBoolMap["PreloadUI"] = false;
 	mBoolMap["PreloadMedias"] = false;	
 	mBoolMap["OptimizeVRAM"] = true;
 	mBoolMap["OptimizeVideo"] = true;
@@ -308,7 +308,7 @@ void Settings::setDefaults()
 	mBoolMap["global.retroachievements.verbose"] = false;
 	mBoolMap["global.retroachievements.screenshot"] = false;
 
-	mBoolMap["global.netplay_public_announce"] = true;
+	mBoolMap["global.netplay_public_announce"] = false;
 	mBoolMap["global.netplay"] = false;
 
 	mBoolMap["kodi.enabled"] = false;
